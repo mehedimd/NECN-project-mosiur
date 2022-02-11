@@ -1,0 +1,96 @@
+body{
+	margin-top: 80px;
+}
+/*--------------Navbar section--------*/
+.navbar{
+	background-image: linear-gradient(#bc4e9c,  #f80759);
+	box-shadow: 0px 2px 3px blue;
+	overflow: hidden;
+}
+
+.navbar .navbar-nav .nav-item{
+	margin-right:20px;
+	font-size:20px;
+}
+.navbar .navbar-nav .nav-item:last-child{
+	margin-right: 0;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+	color:#fff;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color: yellow;
+}
+
+/*--------header-----*/
+#header-section-start{
+	background: url('header.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-width: 700px;
+	margin-bottom: 50px;
+	
+	
+}
+#header-section-start .color-overlay{
+	background-color: #100e0e75;
+	min-width: 700px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	
+}
+/*--------------subscribe section--------*/
+#subscribe-section{
+	background-color:#3421d2d6;
+
+}
+
+/*--------section two-----*/
+#section-two .box1 ,.box3{
+	border:1px solid tomato;
+	
+
+}
+#section-two .box2 ,.box4{
+	background-color:tomato;
+	color:white;
+	
+}
+#section-two .box3 h3{
+	color:tomato;
+}
+#section-two .box1 h3{
+	color:tomato;
+}
+
+/*-----authors-------*/
+#authors img{
+	margin-top:-50px; 
+}
+#authors .fab{
+	font-size: 30px;
+}
+#authors .card:hover{
+	background-color:#75429c;
+	color:white;
+}
+
+/*------footer section------*/
+#footer-section{
+	background-image: linear-gradient(#232526,#414345);
+}
+
+/*------media-------*/
+@media (max-width:576px){
+	#header-section-start .display-2{
+		font-size:25px;
+
+
+	}
+	#header-section-start .lead{
+		font-size: 15px;
+
+	}
+}
